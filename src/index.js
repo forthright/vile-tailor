@@ -8,7 +8,7 @@ let to_json = (string) =>
 
 let tailor = (plugin_config) => {
   let custom_config_path = _.get(plugin_config, "config")
-  let paths = _.get(plugin_config, "allow", ["."])
+  let paths = _.get(plugin_config, "allow", [])
   let opts = {}
 
   opts.args = ["-f", "json"]
@@ -17,7 +17,11 @@ let tailor = (plugin_config) => {
     opts.args = opts.args.concat("-c", custom_config_path)
   }
 
-  if (!_.isEmpty(paths)) opts.args = _.concat(opts.args, paths)
+  if (_.isEmpty(paths)) {
+    opts.args.push(".")
+  } else {
+    opts.args = _.concat(opts.args, paths)
+  }
 
   return vile
     .spawn("tailor", opts)
