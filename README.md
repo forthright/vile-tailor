@@ -1,4 +1,6 @@
-# vile-tailor
+# vile-tailor [![CircleCI](https://circleci.com/gh/forthright/vile-tailor.svg?style=svg&circle-token=e4883f9d8bd8c567dcbb1b726099a0da511f31cb)](https://circleci.com/gh/forthright/vile-tailor)
+
+[![score-badge](https://vile.io/brentlintner/vile-tailor/badges/score?token=BxYn2MUBS31yusizLNDz)](https://vile.io/brentlintner/vile-tailor) [![security-badge](https://vile.io/brentlintner/vile-tailor/badges/security?token=BxYn2MUBS31yusizLNDz)](https://vile.io/brentlintner/vile-tailor) [![coverage-badge](https://vile.io/brentlintner/vile-tailor/badges/coverage?token=BxYn2MUBS31yusizLNDz)](https://vile.io/brentlintner/vile-tailor) [![dependency-badge](https://vile.io/brentlintner/vile-tailor/badges/dependency?token=BxYn2MUBS31yusizLNDz)](https://vile.io/brentlintner/vile-tailor)
 
 A [vile](https://vile.io) plugin for [tailor](https://tailor.sh).
 
