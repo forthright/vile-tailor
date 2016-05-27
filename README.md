@@ -45,6 +45,8 @@ tailor:
   allow: [ "app", "spec" ]
 ```
 
+Else, `.` is used as the directory to operate on.
+
 ## Architecture
 
 This project is currently written in JavaScript. Tailor provides

@@ -38,6 +38,7 @@ describe "tailor", ->
               .calledWith "tailor", args: [
                               "-f"
                               "json"
+                              "."
                             ]
             done()
 
@@ -55,6 +56,7 @@ describe "tailor", ->
                               "json"
                               "-c"
                               config_path
+                              "."
                             ]
               done()
 

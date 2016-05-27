@@ -8,7 +8,7 @@ let to_json = (string) =>
 
 let tailor = (plugin_config) => {
   let custom_config_path = _.get(plugin_config, "config")
-  let paths = _.get(plugin_config, "allow", [])
+  let paths = _.get(plugin_config, "allow", ["."])
   let opts = {}
 
   opts.args = ["-f", "json"]
