@@ -1,6 +1,13 @@
 module.exports = [
   {
     path: "/main.swift",
+    message: "Issue with no line info",
+    type: "maintainability",
+    signature: "tailor::constant-naming",
+    where: undefined
+  }
+  {
+    path: "/main.swift",
     message: "Global Constant should be either lowerCamelCase or UpperCamelCase",
     type: "maintainability",
     signature: "tailor::constant-naming",
