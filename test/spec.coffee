@@ -41,6 +41,7 @@ describe "tailor", ->
                               "."
                             ]
             done()
+      return
 
     describe "with a custom config path", ->
       it "passes the path as a tailor cli option", (done) ->
@@ -59,6 +60,7 @@ describe "tailor", ->
                               "."
                             ]
               done()
+        return
 
     describe "with an allow list", ->
       it "passes the file args to tailor", (done) ->
@@ -74,3 +76,4 @@ describe "tailor", ->
                               "bar"
                             ]
               done()
+        return
