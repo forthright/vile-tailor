@@ -25,8 +25,11 @@ let tailor = (plugin_config) => {
 
   return vile
     .spawn("tailor", opts)
-    .then((stdout) => stdout ?
-          to_json(stdout) : EMPTY_TAILOR_JSON_RESPONSE)
+    .then((spawn_data) => {
+      let stdout = _.get(spawn_data, "stdout")
+      return stdout ?
+          to_json(stdout) : EMPTY_TAILOR_JSON_RESPONSE
+    })
 }
 
 let signature = (violation) => {

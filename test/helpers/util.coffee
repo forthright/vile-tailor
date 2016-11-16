@@ -4,7 +4,11 @@ vile_issues_json = require "./../fixtures/vile-issues-json"
 
 setup = (vile) ->
   vile.spawn.returns new Promise (resolve) ->
-    resolve(JSON.stringify tailor_json)
+    resolve({
+      code: 0
+      stdout: JSON.stringify tailor_json
+      stderr: ""
+    })
 
 module.exports =
   issues: vile_issues_json
