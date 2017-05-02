@@ -1,5 +1,5 @@
 let _ = require("lodash")
-let vile = require("@forthright/vile")
+let vile = require("vile")
 
 const EMPTY_TAILOR_JSON_RESPONSE = { files: [] }
 
