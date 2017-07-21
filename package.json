@@ -1,7 +1,7 @@
 {
   "name": "vile-tailor",
   "version": "0.2.2",
-  "description": "A vile plugin for Tailor (Swift)",
+  "description": "Identify common style and maintainability issues in your Swift code.",
   "main": "lib/index.js",
   "files": [
     "lib",
