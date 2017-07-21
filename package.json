@@ -1,6 +1,6 @@
 {
   "name": "vile-tailor",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Identify common style and maintainability issues in your Swift code.",
   "main": "lib/index.js",
   "files": [
